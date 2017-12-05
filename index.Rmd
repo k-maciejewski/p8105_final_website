@@ -1,10 +1,10 @@
 ---
-title: "A Geolocation an Sentiment Analysis of Tweets, April 14-16 2016"
+title: "A Geolocation and Sentiment Analysis of Tweets"
 ---
+***
+### **About the Project**
 
-### About the Project
-
-Ever wanted to know what everyone’s been tweeting about? Well, thanks to Twitter’s use of the hasthag system, that’s already possible. But how about the most popular places everyone’s been tweeting from? Or how about a simplified way to see how all those twitter users are feeling? Thanks to some in-depth exploratory analyses from Dr. Jeff Goldsmith’s* (Columbia University’s Mailman School of Public Health) Team AwesomeTM,  and courtesy of Followthehashtag’s publicly available twitter APIs, even this is possible. 
+Ever wanted to know what everyone’s been tweeting about? Well, thanks to Twitter’s use of the hasthag system, that’s already possible. But how about the most popular places everyone’s been tweeting from? Or how about a simplified way to see how all those twitter users are feeling? Thanks to some in-depth exploratory analyses from Dr. Jeff Goldsmith’s* (Columbia University’s Mailman School of Public Health) Team Awesome^TM^,  and courtesy of Followthehashtag’s publicly available twitter APIs, even this is possible. 
 
 In a rapidly changing and increasingly tech-based world, people now have the power to essentially react to global events happening thousands of miles away in real time. Social media as whole, but twitter especially, are some of the biggest domains for capturing these reactions. Our team’s motivation for this analysis comes from a desire to aggregate these reactions in as compact and sensible format as possible. 
 
@@ -12,3 +12,11 @@ The dataset we used from Followthehashtag is a comprehensive but incomplete list
 
 About the Sentiment function:
 Matthew Jockers’s sentiment function is essentially a dictionary that assigns different words to different sentiments. The general sentiments he uses in this function (and subsequently the ones we use in our analyses) are trust, joy, anger, sadness, fear, disgust, anticipation, and surprise. While some of these sentiments may not seem intuitive to use, altogether they form a relatively broad spectrum of moods and emotions which make for interesting analyses.
+
+
+***
+
+Here's an example tweet from our dataset:
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Ran the B.A.A. 5k this morning with Chris Sanford and finished with the exact same time as last… <a href="https://t.co/m8ClCPqjiR">https://t.co/m8ClCPqjiR</a></p>&mdash; Chris S Jones (@foggypaws) <a href="https://twitter.com/foggypaws/status/721318386290991104?ref_src=twsrc%5Etfw">April 16, 2016</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
