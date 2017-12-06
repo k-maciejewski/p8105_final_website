@@ -32,8 +32,10 @@ The rest of the dataset was made up of 199,999 other tweets! That's a lot of dat
 
 <font size="4"> Here's how to navigate some of our analyses (found via the tabs in the upper right): </font>
 
-* **U.S. Tweets**: 
+* **U.S. Tweets**: A Shiny-enabled app that can be used to explore general sentiments and feeling of twitter users across the U.S. Included are a heat map that plots aggregated positivity/negativity of tweets overall, a map that plots the feelings of individual users on both a positivity/negativity scale and more complex emotional range, and a map that displays the distribution of tweets across the U.S. averaged across hours throughout each day.
 
-* **State Tweets**:
+* **State Tweets**: A Shiny-enabled app that allows...
 
-* **Analysis**:
+* **Tweet Analysis**:
+
+* **Conclusion**: 
