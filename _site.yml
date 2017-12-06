@@ -1,17 +1,20 @@
-name: "Yay internet!"
-output_dir: "."
+name: Yay internet!
+output_dir: .
 navbar:
-  title: "Home"
+  title: Home
   right:
-    - text: "US Tweets"
-      href: about.html
-    - text: "State Tweets"
-      href: State_Tweet.html
-    - text: "Analysis"
-      href: analysis.html
-    - icon: fa-envelope fa-lg
-      href: mailto:<you@youremail.com>
-    - icon: fa-github fa-lg
-      href: http://github.com/<YOUR_GH_NAME>/
+  - text: US Tweets
+    href: about.html
+  - text: State Tweets
+    href: State_Tweet.html
+  - text: Analysis
+    href: analysis.html
+  - icon: fa-envelope fa-lg
+    href: mailto:<pb2668@cumc.columbia.edu>
+  - icon: fa-github fa-lg
+    href: https://github.com/k-maciejewski/p8105_final_website
 output:
-  html_document
+  html_document:
+    lib_dir: site_libs
+    self_contained: no
+
