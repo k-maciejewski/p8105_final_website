@@ -39,3 +39,7 @@ The rest of the dataset was made up of 199,999 other tweets! That's a lot of dat
 * <font size="3"> **Tweet Analysis**: A Shiny-enabled app that allows for exploration of the contents of the tweets themselves, including total sentiment contents, most popular words used, and when twitter users are tweeting most frequently.
 
 * <font size="3"> **Discussion**: A brief discussion of the conclusions drawn from our exploration of this twitter dataset, including an analysis of some of the most notable events from the time of the tweets in the dataset and comparisons to the sentiments (and ultimately, reactions) of the tweets themselves. </font>
+
+***
+
+If you'd like to access the dataset yourself, the link to Followthehashtag's website can be found [here](http://www.followthehashtag.com/datasets/free-twitter-dataset-usa-200000-free-usa-tweets/)
