@@ -4,4 +4,4 @@ title: "Analysis"
 
 (Morgan's descriptive tweet)
 
-click [here](https://np2547.shinyapps.io/states_shiny/) for the shiny app to explore
+click [here](https://mdeferrante.shinyapps.io/overall_analysis/) for the shiny app to explore

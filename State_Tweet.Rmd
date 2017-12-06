@@ -2,4 +2,4 @@
 title: "State Tweets"
 ---
 
-This is stuff about each state individually
+click [here](https://np2547.shinyapps.io/states_shiny/) for the shiny app to explore
