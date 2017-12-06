@@ -1,6 +1,8 @@
 ---
 title: "A Geolocation and Sentiment Analysis of Tweets"
 ---
+<font size="4">by Morgan de Ferrante, Nadiya Pavlishyn, Kaitlin Maciejewski, Kathryn Addabbo, and Peter Batten </font>
+
 ***
 > **About the Project**
 
