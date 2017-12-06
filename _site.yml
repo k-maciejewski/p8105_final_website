@@ -1,4 +1,4 @@
-name: Yay internet!
+name: Professor Goldsmith's DSI Final Project!
 output_dir: .
 navbar:
   title: Home
@@ -17,4 +17,5 @@ output:
   html_document:
     lib_dir: site_libs
     self_contained: no
+    theme: cosmo
 
