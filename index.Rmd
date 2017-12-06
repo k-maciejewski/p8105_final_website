@@ -32,3 +32,8 @@ The rest of the dataset was made up of 199,999 other tweets! That's a lot of dat
 
 <font size="4"> Here's how to navigate some of our analyses (found via the tabs in the upper right): </font>
 
+* **U.S. Tweets**: 
+
+* **State Tweets**:
+
+* **Analysis**:
