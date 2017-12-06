@@ -2,8 +2,5 @@
 title: "U.S. Tweets"
 ---
 
-### About this site
 
-This is stuff for all US
-
-click [here](https://kmaciejewski.shinyapps.io/p8105_final_shinyus/) for the shiny app to explore
+<font size="5"> Click [here](https://kmaciejewski.shinyapps.io/p8105_final_shinyus/) for the shiny app to explore! </font>
