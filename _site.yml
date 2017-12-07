@@ -11,8 +11,7 @@ navbar:
     href: analysis.html
   - text: Discussion
     href: discussion.html
-  - icon: fa-envelope fa-lg
-    href: mailto:<pb2668@cumc.columbia.edu>
+  - text: Contact
   - icon: fa-github fa-lg
     href: https://github.com/k-maciejewski/p8105_final_website
 output:

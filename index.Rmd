@@ -6,14 +6,12 @@ title: "A Geolocation and Sentiment Analysis of Tweets"
 ***
 > **About the Project**
 
-<font size="3">Ever wanted to know what everyone’s been tweeting about? Well, thanks to Twitter’s use of the hasthag system, that’s already possible. But how about the most popular places everyone’s been tweeting from? Or how about a simplified way to see how all those twitter users are feeling? Thanks to some in-depth exploratory analyses from Dr. Jeff Goldsmith’s* Team Awesome^TM^,  and courtesy of Followthehashtag’s publicly available twitter APIs, even this is possible. </font>
-
-*Dr. Goldsmith is a Professor of Biostatistics at Columbia University's Mailman School of Public Health.
+<font size="3">Ever wanted to know what everyone’s been tweeting about? Well, thanks to Twitter’s use of the hasthag system, that’s already possible. But how about the most popular places everyone’s been tweeting from? Or how about a simplified way to see how all those twitter users are feeling? Thanks to some in-depth exploratory analyses from [Dr. Jeff Goldsmith’s](http://jeffgoldsmith.com/DSI/index.html) Team Awesome^TM^,  and courtesy of [Followthehashtag’s](http://followthehashtag.com) publicly available twitter APIs, even this is possible. </font>
 
 
 <font size="3">In a rapidly changing and increasingly tech-based world, people now have the power to essentially react to global events happening thousands of miles away in real time. Social media as a whole, but twitter especially, are some of the biggest domains for capturing these reactions. Our team’s motivation for this analysis comes from a desire to aggregate these reactions in as compact and sensible format as possible. </font> 
 
-<font size="3">The dataset we used from Followthehashtag is a comprehensive but incomplete list of 200,000 tweets from users across the United States (and outside the U.S., but we focused on domestic tweets) from April 14, 2016 to April 16, 2016, which comes as an easy-to-access csv file within a zipped folder. For each tweet, user information such as name, location (latitude/longitude), number of followers, and the entire content of the tweet itself is given. We used the Syuzhet package from GitHub (thank you Matthew Jockers!) to extract sentiments from tweet content. Our primary analyses consisted of mapping these tweets (using tweet location) as observable sentiments across the United States, which gives a nice aggregate picture of how the U.S. twitterverse was feeling during the dates mentioned above. </font>
+<font size="3">The dataset we used from Followthehashtag is a comprehensive but incomplete list of 200,000 tweets from users across the United States (and outside the U.S., but we focused on domestic tweets) from April 14, 2016 to April 16, 2016, which comes as an easy-to-access csv file within a zipped folder. For each tweet, user information such as name, location (latitude/longitude), number of followers, and the entire content of the tweet itself is given. We used the [Syuzhet package](https://github.com/mjockers/syuzhet) from GitHub (thank you Matthew Jockers!) to extract sentiments from tweet content. Our primary analyses consisted of mapping these tweets (using tweet location) as observable sentiments across the United States, which gives a nice aggregate picture of how the U.S. twitterverse was feeling during the dates mentioned above. </font>
 
 <font size="3">About the Sentiment function:
 
@@ -45,3 +43,5 @@ The rest of the dataset was made up of 199,999 other tweets! That's a lot of dat
 ***
 
 If you'd like to access the dataset yourself, the link to Followthehashtag's website can be found [here](http://www.followthehashtag.com/datasets/free-twitter-dataset-usa-200000-free-usa-tweets/).
+
+The GitHub repo for our final project is [here](https://github.com/k-maciejewski/dsfinal)

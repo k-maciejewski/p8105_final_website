@@ -4,6 +4,15 @@ title: "U.S. Tweets"
 
 ***
 
+The maps below show the distribution of tweets with positive sentiment, and tweets of different emotions through the US. Since there was an overwhelming amount of "trust" emotion, an additional graph removes this emotion and shows distribution of other tweets.
+
+
+![](./USPos.png){ width=50% }![](./heat.png){ width=50% }
+
+![](./USemot.png){ width=50% }![](./USnotrust.png){ width=50% }
+
+The shiny app below allows additional exploration, including the ability to view locations of different emotions, and emotions tweeted at different times.
+
 <font size="5"> Click [here](https://kmaciejewski.shinyapps.io/p8105_final_shinyus/) for the shiny app to explore! </font>
 
 ***

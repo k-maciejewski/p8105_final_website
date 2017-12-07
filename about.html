@@ -20,8 +20,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-1.1/highlight.js"></script>
 <link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
@@ -31,12 +31,10 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs) {
-  hljs.configure({languages: []});
-  hljs.initHighlightingOnLoad();
-  if (document.readyState && document.readyState === "complete") {
-    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
-  }
+if (window.hljs && document.readyState && document.readyState === "complete") {
+   window.setTimeout(function() {
+      hljs.initHighlighting();
+   }, 0);
 }
 </script>
 
@@ -193,12 +191,7 @@ $(document).ready(function () {
 <li>
   <a href="discussion.html">Discussion</a>
 </li>
-<li>
-  <a href="mailto:&lt;pb2668@cumc.columbia.edu&gt;">
-    <span class="fa fa-envelope fa-lg"></span>
-     
-  </a>
-</li>
+<li class="dropdown-header">Contact</li>
 <li>
   <a href="https://github.com/k-maciejewski/p8105_final_website">
     <span class="fa fa-github fa-lg"></span>
@@ -220,6 +213,10 @@ $(document).ready(function () {
 
 
 <hr />
+<p>The maps below show the distribution of tweets with positive sentiment, and tweets of different emotions through the US. Since there was an overwhelming amount of “trust” emotion, an additional graph removes this emotion and shows distribution of other tweets.</p>
+<p><img src="USpos.png" style="width:50.0%" /><img src="heat.png" style="width:50.0%" /></p>
+<p><img src="USemot.png" style="width:50.0%" /><img src="USnotrust.png" style="width:50.0%" /></p>
+<p>The shiny app below allows additional exploration, including the ability to view locations of different emotions, and emotions tweeted at different times.</p>
 <p><font size="5"> Click <a href="https://kmaciejewski.shinyapps.io/p8105_final_shinyus/">here</a> for the shiny app to explore! </font></p>
 <hr />
 <div class="figure">
