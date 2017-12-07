@@ -44,4 +44,4 @@ The rest of the dataset was made up of 199,999 other tweets! That's a lot of dat
 
 ***
 
-If you'd like to access the dataset yourself, the link to Followthehashtag's website can be found [here](http://www.followthehashtag.com/datasets/free-twitter-dataset-usa-200000-free-usa-tweets/)
+If you'd like to access the dataset yourself, the link to Followthehashtag's website can be found [here](http://www.followthehashtag.com/datasets/free-twitter-dataset-usa-200000-free-usa-tweets/).
