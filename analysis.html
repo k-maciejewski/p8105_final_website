@@ -20,8 +20,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
@@ -31,10 +31,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -212,6 +214,10 @@ $(document).ready(function () {
 
 
 <hr />
+<p><font size="3">The ‘overall analysis’ shows summarizing information on the tweets overall, not divided by state or sentiment, in order to give a better understanding of the dataset as a whole.</p>
+<p>The two visualizations in the the tabset show the most frequent words overall in the dataset. The word cloud was generated using a subset where only words appearing more than 200 times are included. The zoom slider allows you to zoom in and out to see some of the most and least frequent words (of frequency over 200). Word size corresponds to frequency, and zooming out to .5 shows the most frequent words used in the tweets, but due to the large proportion of more frequent words, it makes it very difficult to see less common words.</p>
+<p>Number of tweets per hour is a time series plot showing the distribution of tweets at different hours of the day. The dataset includes recorded tweets across a 48 hour span, so we found it interesting that there were time gaps at the same time both days. This could be related to the way in which the data was collected, but provided information on the data does not mention why these gaps occur.</p>
+<p>The sentiments plot gives a general understanding of the most common sentiments throughout the tweets. </font></p>
 <p><font size="5"> Click <a href="https://mdeferrante.shinyapps.io/overall_analysis/">here</a> for the shiny app to explore! </font></p>
 <hr />
 <div class="figure">

@@ -4,6 +4,15 @@ title: "Analysis"
 
 ***
 
+<font size="3">The ‘overall analysis’ shows summarizing information on the tweets overall, not divided by state or sentiment, in order to give a better understanding of the dataset as a whole.  
+
+The two visualizations in the the tabset show the most frequent words overall in the dataset. The word cloud was generated using a subset where only words appearing more than 200 times are included. The zoom slider allows you to zoom in and out to see some of the most and least frequent words (of frequency over 200). Word size corresponds to frequency, and zooming out to .5 shows the most frequent words used in the tweets, but due to the large proportion of more frequent words, it makes it very difficult to see less common words.
+
+Number of tweets per hour is a time series plot showing the distribution of tweets at different hours of the day. The dataset includes recorded tweets across a 48 hour span, so we found it interesting that there were time gaps at the same time both days. This could be related to the way in which the data was collected, but provided information on the data does not mention why these gaps occur. 
+
+The sentiments plot gives a general understanding of the most common sentiments throughout the tweets.  </font>
+
+
 <font size="5"> Click [here](https://mdeferrante.shinyapps.io/overall_analysis/) for the shiny app to explore! </font>
 
 ***
