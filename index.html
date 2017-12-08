@@ -20,8 +20,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-1.1/highlight.js"></script>
 <link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
@@ -31,12 +31,10 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs) {
-  hljs.configure({languages: []});
-  hljs.initHighlightingOnLoad();
-  if (document.readyState && document.readyState === "complete") {
-    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
-  }
+if (window.hljs && document.readyState && document.readyState === "complete") {
+   window.setTimeout(function() {
+      hljs.initHighlighting();
+   }, 0);
 }
 </script>
 
@@ -194,12 +192,6 @@ $(document).ready(function () {
   <a href="discussion.html">Discussion</a>
 </li>
 <li>
-  <a href="mailto:&lt;pb2668@cumc.columbia.edu&gt;">
-    <span class="fa fa-envelope fa-lg"></span>
-     
-  </a>
-</li>
-<li>
   <a href="https://github.com/k-maciejewski/p8105_final_website">
     <span class="fa fa-github fa-lg"></span>
      
@@ -224,10 +216,9 @@ $(document).ready(function () {
 <blockquote>
 <p><strong>About the Project</strong></p>
 </blockquote>
-<p><font size="3">Ever wanted to know what everyone’s been tweeting about? Well, thanks to Twitter’s use of the hasthag system, that’s already possible. But how about the most popular places everyone’s been tweeting from? Or how about a simplified way to see how all those twitter users are feeling? Thanks to some in-depth exploratory analyses from Dr. Jeff Goldsmith’s* Team Awesome<sup>TM</sup>, and courtesy of Followthehashtag’s publicly available twitter APIs, even this is possible. </font></p>
-<p>*Dr. Goldsmith is a Professor of Biostatistics at Columbia University’s Mailman School of Public Health.</p>
+<p><font size="3">Ever wanted to know what everyone’s been tweeting about? Well, thanks to Twitter’s use of the hasthag system, that’s already possible. But how about the most popular places everyone’s been tweeting from? Or how about a simplified way to see how all those twitter users are feeling? Thanks to some in-depth exploratory analyses from <a href="http://jeffgoldsmith.com/DSI/index.html">Dr. Jeff Goldsmith’s</a> Team Awesome<sup>TM</sup>, and courtesy of <a href="http://followthehashtag.com">Followthehashtag’s</a> publicly available twitter APIs, even this is possible. </font></p>
 <p><font size="3">In a rapidly changing and increasingly tech-based world, people now have the power to essentially react to global events happening thousands of miles away in real time. Social media as a whole, but twitter especially, are some of the biggest domains for capturing these reactions. Our team’s motivation for this analysis comes from a desire to aggregate these reactions in as compact and sensible format as possible. </font></p>
-<p><font size="3">The dataset we used from Followthehashtag is a comprehensive but incomplete list of 200,000 tweets from users across the United States (and outside the U.S., but we focused on domestic tweets) from April 14, 2016 to April 16, 2016, which comes as an easy-to-access csv file within a zipped folder. For each tweet, user information such as name, location (latitude/longitude), number of followers, and the entire content of the tweet itself is given. We used the Syuzhet package from GitHub (thank you Matthew Jockers!) to extract sentiments from tweet content. Our primary analyses consisted of mapping these tweets (using tweet location) as observable sentiments across the United States, which gives a nice aggregate picture of how the U.S. twitterverse was feeling during the dates mentioned above. </font></p>
+<p><font size="3">The dataset we used from Followthehashtag is a comprehensive but incomplete list of 200,000 tweets from users across the United States (and outside the U.S., but we focused on domestic tweets) from April 14, 2016 to April 16, 2016, which comes as an easy-to-access csv file within a zipped folder. For each tweet, user information such as name, location (latitude/longitude), number of followers, and the entire content of the tweet itself is given. We used the <a href="https://github.com/mjockers/syuzhet">Syuzhet package</a> from GitHub (thank you Matthew Jockers!) to extract sentiments from tweet content. Our primary analyses consisted of mapping these tweets (using tweet location) as observable sentiments across the United States, which gives a nice aggregate picture of how the U.S. twitterverse was feeling during the dates mentioned above. </font></p>
 <p><font size="3">About the Sentiment function:</p>
 <p>Matthew Jockers’s sentiment function is essentially a dictionary that assigns different words to different sentiments. The general sentiments he uses in this function (and subsequently the ones we use in our analyses) are trust, joy, anger, sadness, fear, disgust, anticipation, and surprise. While some of these sentiments may not seem intuitive to use, altogether they form a relatively broad spectrum of moods and emotions which make for interesting analyses. </font></p>
 <hr />
@@ -239,10 +230,6 @@ Ran the B.A.A. 5k this morning with Chris Sanford and finished with the exact sa
 — Chris S Jones (<span class="citation">@foggypaws</span>) <a href="https://twitter.com/foggypaws/status/721318386290991104?ref_src=twsrc%5Etfw">April 16, 2016</a>
 </blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<div class="figure">
-<img src="TwitterLogo.png" />
-
-</div>
 <p>The rest of the dataset was made up of 199,999 other tweets! That’s a lot of data!</p>
 <hr />
 <p><font size="4"> Here’s how to navigate some of our analyses (found via the tabs in the upper right): </font></p>
@@ -254,6 +241,7 @@ Ran the B.A.A. 5k this morning with Chris Sanford and finished with the exact sa
 </ul>
 <hr />
 <p>If you’d like to access the dataset yourself, the link to Followthehashtag’s website can be found <a href="http://www.followthehashtag.com/datasets/free-twitter-dataset-usa-200000-free-usa-tweets/">here</a>.</p>
+<p>The GitHub repo for our final project is <a href="https://github.com/k-maciejewski/dsfinal">here</a></p>
 
 
 
