@@ -10,8 +10,7 @@ The map below shows the distribution of sentiments across the state of New York.
 </center>
 ![](./screenshot.png)
 
-
-
+We could also look at another state and compare how the sentiments differ across state/location at once! The shiny app below allows for the selection of two states for a comparison.
 
 <font size="5"> Click [here](https://np2547.shinyapps.io/states_shiny/) for the shiny app to explore! </font>
 
