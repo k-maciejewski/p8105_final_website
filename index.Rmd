@@ -15,7 +15,7 @@ title: "A Geolocation and Sentiment Analysis of Tweets"
 
 <font size="3">About the Sentiment function:
 
-Matthew Jockers’s sentiment function is essentially a dictionary that assigns different words to different sentiments. The general sentiments he uses in this function (and subsequently the ones we use in our analyses) are trust, joy, anger, sadness, fear, disgust, anticipation, and surprise. While some of these sentiments may not seem intuitive to use, altogether they form a relatively broad spectrum of moods and emotions which make for interesting analyses. </font>
+Matthew Jockers’s sentiment function is essentially a dictionary that assigns different words to different sentiments. The general sentiments he uses in this function (and subsequently the ones we use in our analyses) are trust, joy, anger, sadness, fear, disgust, anticipation, surprise, overall negativity and positivity. While some of these sentiments may not seem intuitive to use, altogether they form a relatively broad spectrum of moods and emotions which make for interesting analyses. </font>
 
 
 ***
