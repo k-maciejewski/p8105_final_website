@@ -4,6 +4,15 @@ title: "State Tweets"
 
 ***
 
+The map below shows the distribution of sentiments across the state of New York.  Alongside is a bar chart displaying the count of sentiment in the state.   
+  <center>
+##Check it out!
+</center>
+![](./screenshot.png)
+
+
+
+
 <font size="5"> Click [here](https://np2547.shinyapps.io/states_shiny/) for the shiny app to explore! </font>
 
 ***
